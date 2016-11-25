@@ -79,7 +79,7 @@ k_val_lab_DIR = "/opt/data/kitti_cd/val/labels"
 # In[47]:
 
 # Processing train data
-'''
+#'''
 with open(trainval_file) as in_f:
     for im_fn in in_f:
         #print 'Processing img: {}'.format(im_fn)
@@ -111,7 +111,7 @@ with open(trainval_file) as in_f:
             shutil.copy2(from_file, to_file)
             #break
     in_f.close()
-'''
+#'''
 
 # Processing test data
 with open(test_file) as in_f:
